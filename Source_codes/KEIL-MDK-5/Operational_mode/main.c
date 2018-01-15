@@ -18,7 +18,7 @@ void generate_interrupt(void)
 
 int main(void)
 {
-  generate_interrupt();
-	while(1);
-	return 0;
+  	generate_interrupt();
+  	while(1);
+ 	return 0;
 }
