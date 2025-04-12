@@ -14,7 +14,8 @@ void SysTick_Handler  				(void) __attribute__ ((weak, alias("Default_Handler"))
 void WWDG_IRQHandler 				(void) __attribute__ ((weak, alias("Default_Handler")));
 void PVD_IRQHandler 				(void) __attribute__ ((weak, alias("Default_Handler")));             
 void TAMP_STAMP_IRQHandler 			(void) __attribute__ ((weak, alias("Default_Handler")));      
-void RTC_WKUP_IRQHandler 			(void) __attribute__ ((weak, alias("Default_Handler")));                               
+void RTC_WKUP_IRQHandler 			(void) __attribute__ ((weak, alias("Default_Handler")));
+void FLASH_IRQHandler        (void) __attribute__ ((weak, alias("Default_Handler")));
 void RCC_IRQHandler 				(void) __attribute__ ((weak, alias("Default_Handler")));             
 void EXTI0_IRQHandler 				(void) __attribute__ ((weak, alias("Default_Handler")));           
 void EXTI1_IRQHandler 				(void) __attribute__ ((weak, alias("Default_Handler")));           
